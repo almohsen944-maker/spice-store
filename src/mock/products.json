@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": { "en": "Saffron", "ar": "زعفران" },
+    "slug": "saffron",
+    "description": { "en": "Premium Saffron", "ar": "زعفران فاخر" },
+    "price": 50,
+    "currency": "USD",
+    "images": ["/images/saffron.jpg"],
+    "categoryIds": ["c1"],
+    "rating": 5,
+    "reviewsCount": 10,
+    "isBestSeller": true,
+    "isFeatured": true,
+    "stock": 100,
+    "tags": ["premium"]
+  },
+  {
+    "id": "2",
+    "name": { "en": "Cardamom", "ar": "هيل" },
+    "slug": "cardamom",
+    "description": { "en": "Fresh Cardamom", "ar": "هيل طازج" },
+    "price": 20,
+    "currency": "USD",
+    "images": ["/images/cardamom.jpg"],
+    "categoryIds": ["c1"],
+    "rating": 4.5,
+    "reviewsCount": 5,
+    "isBestSeller": false,
+    "isFeatured": false,
+    "stock": 50,
+    "tags": ["spice"]
+  }
+]

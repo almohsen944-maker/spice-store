@@ -18,19 +18,19 @@
 
 **Purpose**: Project initialization and enterprise-grade design system foundation
 
-- [ ] T001 Initialize Vite + React + TypeScript project with strict compiler options
-- [ ] T002 Install primary dependencies: tailwindcss, framer-motion, lucide-react, react-router-dom, react-helmet-async, clsx, tailwind-merge
-- [ ] T003 [P] Configure Tailwind CSS with luxury Arabic palette (Dark Brown #4E342E, Gold #C9A227, Cream #FAF7F2) in `tailwind.config.js`
-- [ ] T003a [P] Define Design Tokens for Shadows (Luxury soft), Radius (Premium rounded), and Spacing (8pt Grid) in `tailwind.config.js`
-- [ ] T003b [P] Configure Tailwind color opacity variants and luxury accent shades for states (hover, active, focus)
-- [ ] T004 [P] Setup scalable Atomic Design folder structure (src/components/ui/atoms, molecules, organisms, features, layout)
-- [ ] T005 [P] Setup base typography (Luxury Serif headings, clean Sans body) in `src/assets/styles/globals.css`
-- [ ] T005a [P] Implement Fluid Typography scale using CSS `clamp()` and modular scale in `src/assets/styles/typography.css`
-- [ ] T005b [P] Configure font loading strategy (Self-hosting, display: swap) for core Arabic/Latin fonts
-- [ ] T006 [P] Configure Lucide icons and base UI animation presets in `src/utils/animations.ts`
-- [ ] T006a [P] Initialize Storybook for component-driven development and documentation in `.storybook/`
-- [ ] T006b [P] Setup `clsx` and `tailwind-merge` utility for clean class management in `src/utils/cn.ts`
-- [ ] T006c [P] Configure `vite-plugin-imagemin` for automatic high-quality asset optimization in `vite.config.ts`
+- [X] T001 Initialize Vite + React + TypeScript project with strict compiler options
+- [X] T002 Install primary dependencies: tailwindcss, framer-motion, lucide-react, react-router-dom, react-helmet-async, clsx, tailwind-merge
+- [X] T003 [P] Configure Tailwind CSS with luxury Arabic palette (Dark Brown #4E342E, Gold #C9A227, Cream #FAF7F2) in `tailwind.config.js`
+- [X] T003a [P] Define Design Tokens for Shadows (Luxury soft), Radius (Premium rounded), and Spacing (8pt Grid) in `tailwind.config.js`
+- [X] T003b [P] Configure Tailwind color opacity variants and luxury accent shades for states (hover, active, focus)
+- [X] T004 [P] Setup scalable Atomic Design folder structure (src/components/ui/atoms, molecules, organisms, features, layout)
+- [X] T005 [P] Setup base typography (Luxury Serif headings, clean Sans body) in `src/assets/styles/globals.css`
+- [X] T005a [P] Implement Fluid Typography scale using CSS `clamp()` and modular scale in `src/assets/styles/typography.css`
+- [X] T005b [P] Configure font loading strategy (Self-hosting, display: swap) for core Arabic/Latin fonts
+- [X] T006 [P] Configure Lucide icons and base UI animation presets in `src/utils/animations.ts`
+- [X] T006a [P] Initialize Storybook for component-driven development and documentation in `.storybook/`
+- [X] T006b [P] Setup `clsx` and `tailwind-merge` utility for clean class management in `src/utils/cn.ts`
+- [X] T006c [P] Configure `vite-plugin-imagemin` for automatic high-quality asset optimization in `vite.config.ts`
 
 ---
 
@@ -38,22 +38,22 @@
 
 **Purpose**: Core infrastructure for Routing, RTL, State, Motion, and UX behavior
 
-- [ ] T007 Implement `LocaleContext` for LTR/RTL and i18n switching logic in `src/context/LocaleContext.tsx`
-- [ ] T008 [P] Create `useLocale` hook for consuming translation and direction state in `src/hooks/useLocale.ts`
-- [ ] T009 Implement `CartContext` for high-performance shopping cart state in `src/context/CartContext.tsx`
-- [ ] T010 [P] Create `useCart` hook with optimistic UI update logic in `src/hooks/useCart.ts`
-- [ ] T010a [P] Implement `ThemeContext` for Dark Mode / Light Mode support and persistence in `src/context/ThemeContext.tsx`
-- [ ] T011 Setup React Router with primary route definitions and scroll-to-top behavior in `src/App.tsx`
-- [ ] T012 Create `MainLayout` component with RTL support and luxury spacing in `src/layouts/MainLayout.tsx`
-- [ ] T012a [P] Create `MotionProvider` for global AnimatePresence and micro-interactions in `src/context/MotionContext.tsx`
-- [ ] T012b [P] Integrate Lenis for high-end smooth scrolling performance in `src/hooks/useSmoothScroll.ts`
-- [ ] T013 [P] Implement `AnnouncementBar` with luxury transition effects in `src/components/layout/AnnouncementBar.tsx`
-- [ ] T014 [P] Implement `Navbar` with sticky behavior, language switcher, and cart badge in `src/components/layout/Navbar.tsx`
-- [ ] T015 [P] Implement `Footer` with multi-column layout and social engagement in `src/components/layout/Footer.tsx`
-- [ ] T016 Create comprehensive mock data files in `src/mock/products.json` and `src/mock/categories.json`
-- [ ] T017 [P] Implement async mock service layer with simulated network latency in `src/services/mockApi.ts`
-- [ ] T017a [P] Implement `ErrorBoundaries` with luxury "oops" states in `src/components/ui/ErrorBoundaries.tsx`
-- [ ] T017b [P] Setup Zod validation schemas for all form-based interactions in `src/utils/validation.ts`
+- [X] T007 Implement `LocaleContext` for LTR/RTL and i18n switching logic in `src/context/LocaleContext.tsx`
+- [X] T008 [P] Create `useLocale` hook for consuming translation and direction state in `src/hooks/useLocale.ts`
+- [X] T009 Implement `CartContext` for high-performance shopping cart state in `src/context/CartContext.tsx`
+- [X] T010 [P] Create `useCart` hook with optimistic UI update logic in `src/hooks/useCart.ts`
+- [X] T010a [P] Implement `ThemeContext` for Dark Mode / Light Mode support and persistence in `src/context/ThemeContext.tsx`
+- [X] T011 Setup React Router with primary route definitions and scroll-to-top behavior in `src/App.tsx`
+- [X] T012 Create `MainLayout` component with RTL support and luxury spacing in `src/layouts/MainLayout.tsx`
+- [X] T012a [P] Create `MotionProvider` for global AnimatePresence and micro-interactions in `src/context/MotionContext.tsx`
+- [X] T012b [P] Integrate Lenis for high-end smooth scrolling performance in `src/hooks/useSmoothScroll.ts`
+- [X] T013 [P] Implement `AnnouncementBar` with luxury transition effects in `src/components/layout/AnnouncementBar.tsx`
+- [X] T014 [P] Implement `Navbar` with sticky behavior, language switcher, and cart badge in `src/components/layout/Navbar.tsx`
+- [X] T015 [P] Implement `Footer` with multi-column layout and social engagement in `src/components/layout/Footer.tsx`
+- [X] T016 Create comprehensive mock data files in `src/mock/products.json` and `src/mock/categories.json`
+- [X] T017 [P] Implement async mock service layer with simulated network latency in `src/services/mockApi.ts`
+- [X] T017a [P] Implement `ErrorBoundaries` with luxury "oops" states in `src/components/ui/ErrorBoundaries.tsx`
+- [X] T017b [P] Setup Zod validation schemas for all form-based interactions in `src/utils/validation.ts`
 
 ---
 
@@ -61,12 +61,12 @@
 
 **Purpose**: Build the reusable building blocks for visual consistency
 
-- [ ] T017c [P] Implement `Button` atom with luxury variants (Gold, Dark Brown, Outline, Ghost) and loading states
-- [ ] T017d [P] Implement `Badge` atom for product status, offers, and inventory counts in `src/components/ui/atoms/Badge.tsx`
-- [ ] T017e [P] Implement `Input` and `Select` primitives with luxury focus rings and accessibility in `src/components/ui/atoms/Input.tsx`
-- [ ] T017f [P] Implement `Modal` and `Drawer` primitives with accessible focus traps (Radix/Headless) in `src/components/ui/atoms/Overlays.tsx`
-- [ ] T017g [P] Implement `Skeleton` atom for high-end perceived performance in `src/components/ui/atoms/Skeleton.tsx`
-- [ ] T017h [P] Document all atoms in Storybook for visual audit
+- [X] T017c [P] Implement `Button` atom with luxury variants (Gold, Dark Brown, Outline, Ghost) and loading states
+- [X] T017d [P] Implement `Badge` atom for product status, offers, and inventory counts in `src/components/ui/atoms/Badge.tsx`
+- [X] T017e [P] Implement `Input` and `Select` primitives with luxury focus rings and accessibility in `src/components/ui/atoms/Input.tsx`
+- [X] T017f [P] Implement `Modal` and `Drawer` primitives with accessible focus traps (Radix/Headless) in `src/components/ui/atoms/Overlays.tsx`
+- [X] T017g [P] Implement `Skeleton` atom for high-end perceived performance in `src/components/ui/atoms/Skeleton.tsx`
+- [X] T017h [P] Document all atoms in Storybook for visual audit
 
 **Checkpoint**: Foundation & Primitives ready - Feature implementation can now scale with 100% visual consistency.
 
@@ -80,18 +80,19 @@
 
 ### Implementation for User Story 1
 
-- [ ] T018 [P] [US1] Create `Hero` banner with parallax effects and Framer Motion entrance in `src/components/features/Hero.tsx`
-- [ ] T019 [P] [US1] Create `CategoryCard` with luxury hover transformations in `src/components/features/CategoryCard.tsx`
-- [ ] T020 [P] [US1] Create `ProductCard` with advanced micro-interactions (zoom, quick-add) in `src/components/features/ProductCard.tsx`
-- [ ] T020b [P] [US1] Implement `QuickViewModal` for fast product evaluation in `src/components/features/QuickViewModal.tsx`
-- [ ] T021 [US1] Implement "Best Sellers" and "Featured" horizontal sliders (Swiper/Embla) in `src/components/features/ProductSliders.tsx`
-- [ ] T022 [P] [US1] Implement "Why Choose Us" trust section with custom luxury icons in `src/components/features/WhyChooseUs.tsx`
-- [ ] T023 [P] [US1] Implement "Instagram Gallery" grid with interactive lightbox in `src/components/features/InstagramGallery.tsx`
-- [ ] T024 [P] [US1] Implement Home page shell with staggered entry animations in `src/pages/Home.tsx`
-- [ ] T025 [P] [US1] Implement Categories listing page with luxury grid in `src/pages/Categories.tsx`
-- [ ] T026 [P] [US1] Implement Products listing page with advanced filtering/sorting in `src/pages/Products.tsx`
-- [ ] T026a [US1] Audit US1 pages for responsive refinements (mobile/tablet/desktop breakpoints)
-- [ ] T026b [P] [US1] Implement `SearchOverlay` with staggered animations and recent search history
+- [X] T018 [P] [US1] Create `Hero` banner with parallax effects and Framer Motion entrance in `src/components/features/Hero.tsx`
+- [X] T019 [P] [US1] Create `CategoryCard` with luxury hover transformations in `src/components/features/CategoryCard.tsx`
+- [X] T020 [P] [US1] Create `ProductCard` with advanced micro-interactions (zoom, quick-add) in `src/components/features/ProductCard.tsx`
+- [X] T020b [P] [US1] Implement `QuickViewModal` for fast product evaluation in `src/components/features/QuickViewModal.tsx`
+- [X] T021 [US1] Implement "Best Sellers" and "Featured" horizontal sliders (Swiper/Embla) in `src/components/features/ProductSliders.tsx`
+- [X] T022 [P] [US1] Implement "Why Choose Us" trust section with custom luxury icons in `src/components/features/WhyChooseUs.tsx`
+- [X] T023 [P] [US1] Implement "Instagram Gallery" grid with interactive lightbox in `src/components/features/InstagramGallery.tsx`
+
+- [X] T024 [P] [US1] Implement Home page shell with staggered entry animations in `src/pages/Home.tsx`
+- [X] T025 [P] [US1] Implement Categories listing page with luxury grid in `src/pages/Categories.tsx`
+- [X] T026 [P] [US1] Implement Products listing page with advanced filtering/sorting in `src/pages/Products.tsx`
+- [X] T026a [US1] Audit US1 pages for responsive refinements (mobile/tablet/desktop breakpoints)
+- [X] T026b [P] [US1] Implement `SearchOverlay` with staggered animations and recent search history
 
 **Checkpoint**: User Story 1 complete. Home and discovery are functional with luxury aesthetics.
 
@@ -105,9 +106,9 @@
 
 ### Implementation for User Story 2
 
-- [ ] T027 [P] [US2] Implement `CountdownTimer` molecule with luxury typography in `src/components/ui/molecules/CountdownTimer.tsx`
-- [ ] T028 [P] [US2] Implement `StickyAddToCart` mobile/desktop bar with visibility on scroll thresholds
-- [ ] T029 [P] [US2] Implement `BundleOffer` component with "Add Bundle" logic in `src/components/features/BundleOffer.tsx`
+- [X] T027 [P] [US2] Implement `CountdownTimer` molecule with luxury typography in `src/components/ui/molecules/CountdownTimer.tsx`
+- [X] T028 [P] [US2] Implement `StickyAddToCart` mobile/desktop bar with visibility on scroll thresholds
+- [X] T029 [P] [US2] Implement `BundleOffer` component with "Add Bundle" logic in `src/components/features/BundleOffer.tsx`
 - [ ] T030 [US2] Create Product Details page with flexible layout and high-quality imagery in `src/pages/ProductDetails.tsx`
 - [ ] T031 [US2] Implement `ProductGallery` with pinch-to-zoom (mobile) and luxury desktop lightbox
 - [ ] T032 [US2] Integrate `RecentlyViewed` hook with LocalStorage persistence in `src/hooks/useRecentlyViewed.ts`

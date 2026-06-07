@@ -1,0 +1,16 @@
+[
+  {
+    "id": "c1",
+    "name": { "en": "Spices", "ar": "توابل" },
+    "slug": "spices",
+    "image": "/images/spices.jpg",
+    "description": { "en": "Finest spices", "ar": "أجود التوابل" }
+  },
+  {
+    "id": "c2",
+    "name": { "en": "Coffee", "ar": "قهوة" },
+    "slug": "coffee",
+    "image": "/images/coffee.jpg",
+    "description": { "en": "Aromatic coffee", "ar": "قهوة عطرية" }
+  }
+]
