@@ -4,6 +4,10 @@ import { HelmetProvider } from 'react-helmet-async';
 import { LocaleProvider } from './context/LocaleContext';
 import { CartProvider } from './context/CartContext';
 import { ThemeProvider } from './context/ThemeContext';
+import { Home } from './pages/Home';
+import { Categories } from './pages/Categories';
+import { Products } from './pages/Products';
+import { ProductDetails } from './pages/ProductDetails';
 
 /**
  * Ensures page scroll is reset on route changes
@@ -17,10 +21,6 @@ const ScrollToTop = () => {
 };
 
 // Placeholder Pages (to be implemented in later phases)
-const Home = () => <div className="p-8">Home Page (Luxury Spices)</div>;
-const Categories = () => <div className="p-8">Categories</div>;
-const Products = () => <div className="p-8">Products</div>;
-const ProductDetails = () => <div className="p-8">Product Details</div>;
 const Cart = () => <div className="p-8">Shopping Cart</div>;
 const Checkout = () => <div className="p-8">Checkout</div>;
 const NotFound = () => <div className="p-8 text-center text-2xl font-serif">404 - Essence Not Found</div>;
