@@ -8,6 +8,8 @@ import { Home } from './pages/Home';
 import { Categories } from './pages/Categories';
 import { Products } from './pages/Products';
 import { ProductDetails } from './pages/ProductDetails';
+import { Cart } from './pages/Cart';
+import { Checkout } from './pages/Checkout';
 
 /**
  * Ensures page scroll is reset on route changes
@@ -21,8 +23,6 @@ const ScrollToTop = () => {
 };
 
 // Placeholder Pages (to be implemented in later phases)
-const Cart = () => <div className="p-8">Shopping Cart</div>;
-const Checkout = () => <div className="p-8">Checkout</div>;
 const NotFound = () => <div className="p-8 text-center text-2xl font-serif">404 - Essence Not Found</div>;
 
 function App() {
